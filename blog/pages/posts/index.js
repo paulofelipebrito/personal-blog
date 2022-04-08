@@ -1,6 +1,4 @@
-import FeaturedPosts from "../components/home-page/featured-posts";
-import Hero from "../components/home-page/hero";
-
+import AllPosts from "../../components/posts/all-posts";
 const DUMMY_POSTS = [
   { title: 'Getting Started With NextJs', 
     image: 'getting-started-with-nextjs.png', 
@@ -27,16 +25,8 @@ const DUMMY_POSTS = [
     slug: 'getting-started-with-nextjs4',
   },
 ];
-
-export default function HomePage() {
+export default function AllPostPage(){
   return (
-    <>
-      <Hero />
-      <FeaturedPosts posts={DUMMY_POSTS}/>
-    </>
+    <AllPosts posts={DUMMY_POSTS}/> 
   );
-}
-
-
-// Hero => Present ourselves
-// Featured Posts
+};
