@@ -2,6 +2,7 @@ import PostContent from "../../components/posts/post-detail/post-content";
 import { getPostData, getPostsFiles } from "../../utils/posts-util";
 
 export default function PostDetailPage({posts}){
+
   return(
     <PostContent posts={posts}/>
   );
@@ -13,7 +14,7 @@ export function getStaticProps(context){
   const { slug } = params;
 
   const postData = getPostData(slug);
-
+  
   return { 
     props: {
       posts: postData
