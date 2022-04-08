@@ -1,38 +1,12 @@
 import FeaturedPosts from "../components/home-page/featured-posts";
 import Hero from "../components/home-page/hero";
+import { getFeaturedPosts } from "../utils/posts-util";
 
-const DUMMY_POSTS = [
-  { title: 'Getting Started With NextJs', 
-    image: 'getting-started-with-nextjs.png', 
-    excerpt: 'NextJS is a React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR', 
-    date: '2022-02-10 ', 
-    slug: 'getting-started-with-nextjs',
-  },
-  { title: 'Getting Started With NextJs', 
-    image: 'getting-started-with-nextjs.png', 
-    excerpt: 'NextJS is a React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR', 
-    date: '2022-02-10 ', 
-    slug: 'getting-started-with-nextjs2',
-  },
-  { title: 'Getting Started With NextJs', 
-    image: 'getting-started-with-nextjs.png', 
-    excerpt: 'NextJS is a React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR', 
-    date: '2022-02-10 ', 
-    slug: 'getting-started-with-nextjs3',
-  },
-  { title: 'Getting Started With NextJs', 
-    image: 'getting-started-with-nextjs.png', 
-    excerpt: 'NextJS is a React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR', 
-    date: '2022-02-10 ', 
-    slug: 'getting-started-with-nextjs4',
-  },
-];
-
-export default function HomePage() {
+export default function HomePage(props) {
   return (
     <>
       <Hero />
-      <FeaturedPosts posts={DUMMY_POSTS}/>
+      <FeaturedPosts posts={props.posts}/>
     </>
   );
 }
@@ -40,3 +14,14 @@ export default function HomePage() {
 
 // Hero => Present ourselves
 // Featured Posts
+
+export function getStaticProps(){
+  const featuredPosts = getFeaturedPosts();
+
+  return {
+    props: {
+      posts: featuredPosts
+    },
+    //revalidate: 600, Does not need it because the posts will not be updated frequently
+  }
+}
