@@ -1,0 +1,1 @@
+export const connectionString = 'mongodb+srv://paulofelipebrito:copa2014@cluster0.4t5mp.mongodb.net/blog?retryWrites=true&w=majority';
