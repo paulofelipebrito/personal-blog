@@ -32,4 +32,4 @@ yarn-error.log*
 .vercel
 
 # connection
-.monbodbConnection.js
+/connection
