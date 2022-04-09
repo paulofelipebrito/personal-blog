@@ -2,8 +2,6 @@
 
 import {MongoClient} from 'mongodb';
 
-import {connectionString} from '../../monbodbConnection'; 
-
 export default async function handler(req, res) {
   if(req.method === 'POST'){
     const { email, name, message } = req.body;
@@ -26,9 +24,10 @@ export default async function handler(req, res) {
       name,
       message
     };
-
-    let client
-
+  
+    let client;
+    const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.4t5mp.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`;
+    
     try{
       client = await MongoClient.connect(connectionString);
     }catch(error){
@@ -51,6 +50,4 @@ export default async function handler(req, res) {
 
     res.status(201).json({ messagem: 'Successfully stored message!', message: newMessage });
   }
-
-  res.status(200).json({ name: 'John Doe' })
 }
