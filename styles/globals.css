@@ -15,6 +15,7 @@ body {
   --color-grey-700: hsl(265, 4%, 31%);
   --color-grey-800: hsl(276, 5%, 20%);
   --color-grey-900: hsl(280, 5%, 13%);
+  --color-grey-1: #222222;
 
   --color-primary-50: #c8b3ce;
   --color-primary-100: #a07aaa;
@@ -24,6 +25,13 @@ body {
   --color-primary-500: #5a097a;
   --color-primary-600: #480264;
   --color-primary-700: #3d0264;
+  --color-primary-1: #b4aa83;
+  --color-primary-2: hsl(222, 77%, 5%);
+  --color-primary-3: hsl(223, 82%, 13%);
+  --color-primary-4: hsl(180, 25%, 98%);
+  --color-primary-5: hsl(223, 81%, 59%);
+  --color-primary-6: hsl(221, 81%, 8%);
+  --color-primary-7: hsl(180, 25%, 90%);
 
   --color-success-100: #a2f0bc;
   --color-success-500: #12bd4b;
@@ -43,7 +51,7 @@ body {
   --size-40: 10rem;
 
   margin: 0;
-  background-color: var(--color-grey-500);
+  background-color: var(--color-primary-7);
   color: #252525;
   font-family: 'Roboto', sans-serif;
 }
