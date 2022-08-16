@@ -33,7 +33,7 @@
 </details>
 
 <h1 align="center">
-    Github Profiles
+    Personal Blog
 </h1>
 
 <!-- ABOUT THE PROJECT -->
@@ -42,21 +42,22 @@
 <div align="center">
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="github" title="#github" src="./src/assets/demo.gif" > 
+  <img alt="blog" title="#blog" src="./src/assets/demo.gif" > 
 
 </p>
 </div>
 
-Welcome to the _GitHub repository_ of my **Github Profiles** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more.
+Welcome to the _GitHub repository_ of my **Personal Blog** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more. 
 
-This site provides a form to search GitHub Profiles. Users will find the following feature: **Search for github profiles and see the repositories**. 
+This site provides my demo blog. Users will find the following feature: **Blogs posts and send Email to contact with me**. If you're confused about where you are, try this [**this link**][deploy-url] to the deployed project instead 😄.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 * [![React][React.js]][React-url]
-* [![Typescript][Typescript]][Typescript-url]
+* [![Next][Next.js]][Next-url]
+* [![Mongodb][Mongodb]][Mongodb-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +77,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/paulofelipebrito/githubprofiles
+   git clone https://github.com/paulofelipebrito/personal-blog
    ```
 2. Install NPM packages
    ```sh
@@ -138,7 +139,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Paulo Felipe Brito - [LinkedIn](https://www.linkedin.com/in/paulofelipebrito/) - paulofelipebrito@hotmail.com
 
-Project Link: [https://github.com/paulofelipebrito/githubprofiles](https://github.com/paulofelipebrito/githubprofiles)
+Project Link: [https://github.com/paulofelipebrito/personal-blog](https://github.com/paulofelipebrito/personal-blog)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,13 +147,15 @@ Project Link: [https://github.com/paulofelipebrito/githubprofiles](https://githu
 
 This project was developed with the following technologies:
 
-- ✔️ Typescript
+- ✔️ NextJS
 
 - ✔️ ReactJS
   
 - ✔️ React Hooks
 
 - ✔️ CSS Modules
+  
+- ✔️ MongoDB
 
 <!-- ACKNOWLEDGMENTS
 ## Acknowledgments
@@ -172,16 +175,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[contributors-url]: https://github.com/paulofelipebrito/githubprofiles/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[forks-url]: https://github.com/paulofelipebrito/githubprofiles/network/members
-[stars-shield]: https://img.shields.io/github/stars/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[stars-url]: https://github.com/paulofelipebrito/githubprofiles/stargazers
-[issues-shield]: https://img.shields.io/github/issues/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[issues-url]: https://github.com/paulofelipebrito/githubprofiles/issues
-[license-shield]: https://img.shields.io/github/license/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[license-url]: https://github.com/paulofelipebrito/githubprofiles/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/paulofelipebrito/personal-blog.svg?style=for-the-badge
+[contributors-url]: https://github.com/paulofelipebrito/personal-blog/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/paulofelipebrito/personal-blog.svg?style=for-the-badge
+[forks-url]: https://github.com/paulofelipebrito/personal-blog/network/members
+[stars-shield]: https://img.shields.io/github/stars/paulofelipebrito/personal-blog.svg?style=for-the-badge
+[stars-url]: https://github.com/paulofelipebrito/personal-blog/stargazers
+[issues-shield]: https://img.shields.io/github/issues/paulofelipebrito/personal-blog.svg?style=for-the-badge
+[issues-url]: https://github.com/paulofelipebrito/personal-blog/issues
+[license-shield]: https://img.shields.io/github/license/paulofelipebrito/personal-blog.svg?style=for-the-badge
+[license-url]: https://github.com/paulofelipebrito/personal-blog/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paulofelipebrito/
 [product-screenshot]: images/screenshot.png
@@ -192,6 +195,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
+[Mongodb]: https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
+[Mongodb-url]: https://mongodb.com/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
@@ -202,4 +207,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-[Typescript-url]: (https://www.typescriptlang.org)
+[Typescript-url]: https://www.typescriptlang.org
+[deploy-url]: https://paulofelipebritoblog.vercel.app
