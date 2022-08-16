@@ -42,7 +42,8 @@
 <div align="center">
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="blog" title="#blog" src="./src/assets/demo.gif" > 
+  <img alt="blog" title="#blog" src="./public/images/site/demo.gif" > 
+  <img alt="blog" title="#blog" src="./public/images/site/demo1.gif" > 
 
 </p>
 </div>
